@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DAMi_Carro.css">
+    <script src="DAMi_Carro.js"></script>
+    <title>Examen M04 UF3</title>
+</head>
+
+<body onload="createProducts()">
+
+    <section class="w100">
+        <h2>Productos de engorde</h2>
+        <div id="productos">
+            <!-- Lista de articulos con los productos que se pueden comprar -->
+
+            <!-- Ejemplo de estructura de un producto -->
+            <!-- 
+            <article class="articulo">
+                <div>
+                    <p class="nombre w50">Milkybar</p>
+                    <p class="descuento">10%</p>
+                </div>
+                <img src="src/milkybar.jpg">
+                <p><span>1.2€</span></p>
+                <p>Chocolate blanco Nestlé Milkybar 100 g.</p>
+                <p><input type="number" id="Milkybar" step="1" min="0"></p>
+            </article>   
+            -->
+        </div>
+    </section>
+
+
+    <section id="ticket" class="w100">
+        <h2>Ticket de la compra</h2>
+        <table class="table w100">
+            <thead>
+                <tr>
+                    <th>Articulo</th>
+                    <th>Precio Unidad</th>
+                    <th>Descuento aplicado</th>
+                    <th>Cantidad</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3">Total: </th>
+                    <th colspan="2"><span class="subtotal" id="subtotal"></span>€</th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <p>** Indica que el producto tiene un descuento que se ha aplicado en el precio.</p>
+    </section>
+
+
+</body>
+
+</html>

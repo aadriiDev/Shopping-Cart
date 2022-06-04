@@ -1,0 +1,103 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.w50{
+    width: 50%;
+}
+.w25{
+    width: 40%;
+}
+.w75{
+    width: 60%;
+}
+.w100{
+    width: 90%;
+}
+.articulo img{
+    width: 30%;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-start;
+}
+
+#productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-start;
+}
+.articulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 24%;
+    /* margin: 4px; */
+    border: 1px solid grey;
+}
+
+.articulo *{
+    width: 90%;
+}
+
+.articulo div{
+    display: flex;
+    font-weight: bolder;
+}
+
+.descuento{
+    text-align: right;
+    background-color:coral;
+}
+
+button{
+    margin: 5px;
+    padding: 5px;
+    width: 30%;
+    background-color:darkseagreen;
+}
+
+.center{
+    text-align: center;
+}
+
+#ticket{
+    margin-top: 20px;
+    background-color:bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#ticket table   {
+    width: 100%;
+}
+
+tfoot{
+    text-align: right;
+}
+
+td{
+    border-bottom: grey 1px solid;
+    text-align: right;
+    width: 20%;
+
+}
+tfoot th{
+    border-top: black 2px solid;
+}
+
+thead th{
+    border-bottom: black 2px solid;
+}
+
+
